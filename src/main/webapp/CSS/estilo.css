@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+body {
+    font-family: Verdana;
+    font-size: 1.1em;
+}
+div#contenedor {
+    width: 100%;
+    border: 2px outset #cc00ff;
+}
+div#contenedor div.exterior {
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+div#contenedor div.interior {
+    width: 100%;
+    padding-top: 4%;
+}
+div#contenedor div.interior a {
+    text-decoration: none;
+}
+div.limpiar {
+    clear: both;
+}
+td[colspan="2"] {
+    text-align: center;
+}
+input {
+    font-family: verdana;
+    font-size: 1.1em;
+}
+div#datos {
+    width: 100%;
+    font-size: .7em;
+}
+/*table#datos th {
+    font-size: .6em;
+}
+table#datos td {
+    font-size: .7em;
+}*/
+h2#error {
+    color: red;
+}
+h2#final {
+    color: blue;
+}
